@@ -1,0 +1,496 @@
+body{
+    overflow-x: hidden;
+}
+
+header nav ul{
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav ul li{
+    list-style: none;
+    margin: 0 40px;
+    font-size: 20px;
+    color: #FFFFFF;
+    margin-top: 24px;
+    
+}
+
+.headerMenu{
+    height: 64px;
+    background-color: #F78829;
+}
+
+.img_header{
+    background: url(img/ヘッダー\ -\ コピー.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    max-width: 100%; height: 640px;
+    object-fit: cover;
+}
+
+
+
+main{
+    position: relative;
+    margin: auto;
+    max-width: 905px;
+    font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", sans-serif;
+    font-weight:700;
+}
+
+main h2{
+    font-size: 25px;
+    background-image: url(img/黄ふうせん_copy.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    padding-left: 3rem;
+}
+
+main p{
+    padding: 0 5rem;
+    font-size: 16.5px;
+    font-weight: lighter;
+}
+
+.report {
+    margin-left: 18px;
+}
+
+.report li p{
+    padding: 0;
+    font-size: 18.45px;
+}
+
+#setting_point{
+    font-weight: bold;
+    text-align: center;
+}
+
+.area{
+    position: relative;
+    max-width: 580px;
+
+    margin-top: 1em;
+    padding:1em 50px;
+    border: dashed medium #EF9547;
+    border-radius: 14px;
+
+    max-inline-size: max-content;
+    margin-inline: auto;
+}
+
+.area_label{
+    position: absolute;
+    top: 0; left: 0;
+
+    padding: 0 1em;
+    margin: 0;
+    background-color: white;
+    transform: translateY(-50%) translateX(1em);
+}
+
+.carry_food{
+    margin: 40px 0;
+    /*丸付きの番号を実装する*/
+    list-style-type: none;
+    counter-reset: number;
+    margin-left: -40px;
+}
+
+.carry_food li{
+    position: relative;
+    padding-left: 1.5rem;
+    margin: 5px 0;
+}
+
+.carry_food li::before{
+    counter-increment: number;
+    content: counter(number);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 1.2;
+}
+
+.Manga_ep1{
+    margin-top: 150px;
+}
+
+.img_headline_spring{
+    position: relative;
+    top: -7px;
+    max-width: 100px; height: 120px;
+    background: url(img/春号\ -\ コピー.png);
+    background-size: cover;
+}
+
+.img_headline_foodRescue{
+    position: relative;
+    top: -130px; 
+    margin: auto;
+    margin-left: 100px;
+    max-width: 873px; height: 114px;
+    background: url(img/見出し1.png);
+    background-size: cover;
+
+}
+
+.explanatory_text_area{
+    position: relative;
+    top: -100px;
+
+    font-weight: bolder;
+    text-align: center;
+}
+
+.explanatory_text_area p{
+    border: dashed medium #F78829;
+    border-radius: 14px;
+    display: inline-block;
+    max-width: fit-content;
+}
+
+#subtitle{
+    text-align: center;
+    font-weight: bolder;
+    position: relative;
+    top: -100px;
+}
+
+.img_Manga_ep1{
+    position: relative;
+    top: -130px;
+    max-width: 380px; height: 1075px;
+    background: url(img/マンガコピー.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+
+.img_headline_foodDrive{
+    position: relative;
+    left: 70px;
+    max-width: 730px; height: 157px;
+    background: url(img/見出し3.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.foodDrive p{
+    font-weight: bolder;
+}
+
+.main_foodDrive{
+    display: flex;
+    margin-bottom: 90px;
+}
+
+.list_foodDrive p{
+    margin-bottom: 0;
+}
+
+.list_foodDrive{
+    max-width: 350px; 
+    max-height: 400px;
+}
+
+.text_main_foodDrive{
+    max-width: 595px;
+}
+
+.text_main_foodDrive p{
+    padding-right: 30px;
+}
+
+.img_main_foodDrive{
+    width: 190px;
+    height: 253px;
+
+    background-color: #000;
+}
+
+#thx_for_foodDrive{
+    text-align: center;
+}
+
+.area_foodDrive{
+    position: relative;
+    max-width: 816px;
+    max-height: 490px;
+
+    display: flex;
+    justify-content: space-evenly;
+
+    margin-top: 1em;
+    padding:1em 50px;
+    border: dashed medium #EF9547;
+    border-radius: 14px;
+
+    max-inline-size: max-content;
+    margin-inline: auto;
+}
+
+
+.area_img_result_of_foodDrive{
+    position: relative;
+    right: -5%;
+    margin-top: 10%;
+}
+
+
+.area_2_img_result_of_foodDrive{
+    display: flex;
+}
+
+.img_1_result_of_foodDrive{
+    position: relative;
+    margin-left: 31%;
+
+    width: 224px;
+    height: 148px;
+    background-color: hsl(0, 97%, 42%);
+}
+
+.img_2_result_of_foodDrive{
+    width: 115px;
+    height: 152px;
+    background-color: hsl(145, 77%, 49%);
+    margin: 3% 0;
+}
+
+.img_3_result_of_foodDrive{
+    width: 224px;
+    height: 152px;
+    background-color: hsl(219, 82%, 52%);
+    margin: 3%;
+}
+
+.area_foodDrive p{
+    text-align: left;
+    padding: 0;
+}
+
+.foodDrive_label{
+    position: absolute;
+    top: 0; left: 0;
+
+    padding: 0 1em;
+    margin: 0;
+    background-color: white;
+    transform: translateY(-50%) translateX(1em);
+}
+
+.number_of_result_for_foodDrive{
+    list-style: none;
+}
+
+.area_result_of_foodDrive{
+    display: flex;
+}
+
+.result_of_foodDrive{
+    padding-left:20px;
+    margin: 0;
+}
+
+.recipe{
+    margin-top: 160px;
+}
+
+.header_recipe{
+    position: relative;
+    max-width: 640px;
+    height: 250px;
+    background: url(img/見出し4\ -\ コピー.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: auto;
+    padding: 2% 0;
+}
+
+.material_recipe{
+    position: relative;
+    max-width: 500px;
+    height: 260px;
+    background: url(img/レシピ1\ -\ コピー.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: auto;
+    padding: 2% 0;
+}
+
+.method_recipe{
+    position: relative;
+    max-width: 745px;
+    height: 380px;
+    background: url(img/レシピ2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: auto;
+    padding: 2% 0;
+}
+
+.completed_recipe{
+    position: relative;
+    max-width: 730px;
+    height: 350px;
+    background: url(img/レシピ3.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: auto;
+    padding: 2% 0;
+}
+
+footer{
+    max-width: 100%;
+    height: 253px;
+    background-color: #F78829;
+}
+
+
+.menu{
+    display: flex;
+    text-align: left;
+    margin-left: 8%;
+    /*background-color: #2811d7;   範囲を確認するため　後で削除する*/
+}
+
+.menu li{
+    list-style: none;
+    padding-top: 150px;
+    font-size: 20px;
+    margin: 0 2%;
+    color: #FFFFFF;
+}
+
+.Contact{
+    position: relative;
+    top: -93px;
+    /*background-color: hsl(135, 82%, 47%); 範囲を確認するため　後で削除する*/
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+
+    /*画像を挿入*/
+    background-image: url(img/ロゴ_白抜き.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 56% 36%;
+}
+
+.Contact li{
+    list-style: none;
+    padding: 1.5px 0;
+    margin-left: 60%;
+    color: #FFFFFF;
+}
+
+.openbtn4{
+    position: relative;/*ボタン内側の基点となるためrelativeを指定*/
+    background:#F78829;
+    cursor: pointer;
+      width: 50px;
+      height:50px;
+    border-radius: 5px;
+    margin:0 0 0 auto;
+    
+  }
+  
+  /*ボタン内側*/
+  .openbtn4 span{
+      display: inline-block;
+      transition: all .4s;/*アニメーションの設定*/
+      position: absolute;
+      left: 14px;
+      height: 2px;
+      border-radius: 5px;
+    background: #fff;
+      width: 45%;
+    }
+  
+  
+  .openbtn4 span:nth-of-type(1) {
+    top:13px; 
+  }
+  
+  .openbtn4 span:nth-of-type(2) {
+    top:19px;
+  }
+  
+  .openbtn4 span:nth-of-type(3) {
+    top:25px;
+  }
+  
+  .openbtn4 span:nth-of-type(3)::after {
+    content:"Menu";/*3つ目の要素のafterにMenu表示を指定*/
+    position: absolute;
+    top:5px;
+    left:-2px;
+    color: #fff;
+    font-size: 0.6rem;
+    text-transform: uppercase;
+  }
+  
+  /*activeクラスが付与されると線が回転して×になり、Menu⇒Closeに変更*/
+  
+  .openbtn4.active span:nth-of-type(1) {
+      top: 14px;
+      left: 18px;
+      transform: translateY(6px) rotate(-45deg);
+      width: 30%;
+  }
+  
+  .openbtn4.active span:nth-of-type(2) {
+    opacity: 0;
+  }
+  
+  .openbtn4.active span:nth-of-type(3){
+      top: 26px;
+      left: 18px;
+      transform: translateY(-6px) rotate(45deg);
+      width: 30%;
+  }
+  
+  .openbtn4.active span:nth-of-type(3)::after {
+    content:"Close";/*3つ目の要素のafterにClose表示を指定*/
+      transform: translateY(0) rotate(-45deg);
+    top:5px;
+    left:4px;
+  }
+  /*========= レイアウトのためのCSS ===============*/
+  
+  .slide-menu{
+    width: 100%;
+    font-size: 20px;
+    box-sizing: border-box;
+    background-color:#F78829;
+    text-decoration: none;
+    padding: 9px 15px 10px 0;
+    position: relative;
+    text-align: left;
+    transform: translateX(100%); 
+    transition: .5s;
+  }
+  .slide-menu li{
+    color: #fff;
+    line-height: 400%;
+    text-align: center;
+  }
+  
+
+
+  .slide-menu.active{
+    transform: translateX(0); 
+  }
+
+  .btn{
+    text-decoration:none;
+    text-align: center;
+}
