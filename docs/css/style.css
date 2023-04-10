@@ -29,7 +29,10 @@ header nav ul li{
     object-fit: cover;
 }
 
-
+h2{
+    font-size: 30px;
+    font-weight: bold;
+}
 
 main{
     position: relative;
@@ -39,8 +42,9 @@ main{
     font-weight:700;
 }
 
-main h2{
-    font-size: 25px;
+#haed_tag{
+    font-size: 30px;
+    font-weight: bold;
     background-image: url(img/黄ふうせん_copy.png);
     background-repeat: no-repeat;
     background-size: contain;
@@ -50,8 +54,21 @@ main h2{
 
 main p{
     padding: 0 5rem;
-    font-size: 16.5px;
+    font-size: 16px;
     font-weight: lighter;
+}
+
+.are_about_us{
+    border: thin solid #EF9547;
+    border-radius: 15px;
+    padding: 25px;
+}
+
+#no_head_tag{
+    padding-left: 10%;
+    border-bottom: thin dotted #EF9547;
+    width: 50%;
+    margin: 5% 0;
 }
 
 .report {
