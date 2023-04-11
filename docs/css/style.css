@@ -42,7 +42,7 @@ main{
     font-weight:700;
 }
 
-#haed_tag{
+#head_tag{
     font-size: 30px;
     font-weight: bold;
     background-image: url(img/黄ふうせん_copy.png);
@@ -62,12 +62,118 @@ main p{
     border: thin solid #EF9547;
     border-radius: 15px;
     padding: 25px;
+    margin: 30px 0;
 }
 
 #no_head_tag{
     padding-left: 10%;
     border-bottom: thin dotted #EF9547;
     width: 50%;
+    margin: 5% 0;
+}
+
+.area_notice{
+    border: thin solid #EF9547;
+    border-radius: 15px;
+    padding: 25px;
+    height: 1000px;
+    margin: 30px 0;
+}
+
+#no_head_tag_2{
+    padding-left: 10%;
+    margin: 5% 0;
+    color: #EF9547;
+}
+
+#no_head_tag_3{
+    padding-left: 10%;
+    margin: 5% 0;
+    color: #EF9547;
+    position: relative;
+    top: -396px;
+}
+
+
+.img_workshop{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.img_workshop_left{
+    background: url(img/グループ\ 197.png);
+    position: relative;
+    background-size: contain;
+    background-repeat: no-repeat;
+    max-width: 20%; height: 200px;
+    left: 10%; top: 0;
+    object-fit: cover;
+}
+
+.img_workshop_center{
+    background: url(img/グループ\ 93.png);
+    position: relative;
+    background-size: contain;
+    background-repeat: no-repeat;
+    max-width: 20%; height: 200px;
+    top: -198px; left: 40%;
+    object-fit: cover;
+}
+
+.img_workshop_right{
+    background: url(img/グループ\ 97.png);
+    position: relative;
+    background-size: contain;
+    background-repeat: no-repeat;
+    max-width: 20%; height: 200px;
+    top: -396px; left: 70%;
+    object-fit: cover;
+}
+
+.img_quiz_left{
+    background: url(img/グループ\ 113.png);
+    position: relative;
+    background-size: contain;
+    background-repeat: no-repeat;
+    max-width: 20%; height: 200px;
+    left: 10%; top: -356px;
+    object-fit: cover;
+}
+
+.img_quiz_center{
+    background: url(img/グループ\ 117.png);
+    position: relative;
+    background-size: contain;
+    background-repeat: no-repeat;
+    max-width: 20%; height: 200px;
+    top: -596px; left: 40%;
+    object-fit: cover;
+}
+
+.img_quiz_right{
+    background: url(img/グループ\ 108.png);
+    position: relative;
+    background-size: contain;
+    background-repeat: no-repeat;
+    max-width: 20%; height: 200px;
+    top: -796px; left: 70%;
+    object-fit: cover;
+}
+
+
+#notice_text_1{
+    position: relative;
+    top: -396px;
+}
+
+#notice_text_2{
+    position: relative;
+    top: -726px;
+}
+
+#set_foodDrive{
+    color: #EF9547;
+    text-align: center;
     margin: 5% 0;
 }
 
@@ -83,6 +189,7 @@ main p{
 #setting_point{
     font-weight: bold;
     text-align: center;
+    margin: 5% 0;
 }
 
 .area{
