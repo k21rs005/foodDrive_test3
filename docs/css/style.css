@@ -66,10 +66,10 @@ main p{
 }
 
 #no_head_tag{
-    padding-left: 10%;
     border-bottom: thin dotted #EF9547;
     width: 50%;
     margin: 5% 0;
+    margin-left: 10%;
 }
 
 .area_notice{
@@ -250,6 +250,7 @@ main p{
 .img_headline_spring{
     position: relative;
     top: -7px;
+    left: -10px;
     max-width: 100px; height: 120px;
     background: url(img/春号\ -\ コピー.png);
     background-size: cover;
@@ -260,11 +261,10 @@ main p{
     position: relative;
     top: -130px; 
     margin: auto;
-    margin-left: 100px;
+    margin-left: 90px;
     max-width: 873px; height: 114px;
     background: url(img/見出し1.png);
     background-size: cover;
-    margin-top: 5%;
 }
 
 .explanatory_text_area{
@@ -479,42 +479,39 @@ footer{
     background-color: #F78829;
 }
 
+.img_footer_logo{
+    background: url(img/ロゴ_白抜き.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    max-width: 80px; height: 65px;
+    position: relative;
+    margin: auto;
+    top: 20px;
+}
+
 
 .menu{
     display: flex;
-    text-align: left;
-    margin-left: 8%;
+    justify-content: center;
     /*background-color: #2811d7;   範囲を確認するため　後で削除する*/
 }
 
 .menu li{
     list-style: none;
-    padding-top: 150px;
-    font-size: 20px;
-    margin: 0 2%;
+    margin-top: 50px;
+    font-size: 16px;
+    margin-right: 4%;
+    border-bottom: solid thin;
     color: #FFFFFF;
 }
 
-.Contact{
-    position: relative;
-    top: -93px;
-    /*background-color: hsl(135, 82%, 47%); 範囲を確認するため　後で削除する*/
-    text-align: left;
-    font-size: 20px;
+nav p{
+    text-align: right;
+    font-size: 16px;
     font-weight: bold;
-
-    /*画像を挿入*/
-    background-image: url(img/ロゴ_白抜き.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: 56% 36%;
-}
-
-.Contact li{
-    list-style: none;
-    padding: 1.5px 0;
-    margin-left: 60%;
     color: #FFFFFF;
+    margin-right: 1%;
+    margin-top: 3%;
 }
 
 .openbtn4{
