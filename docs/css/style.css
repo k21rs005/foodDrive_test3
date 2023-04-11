@@ -29,6 +29,15 @@ header nav ul li{
     object-fit: cover;
 }
 
+.img_header_title{
+    background: url(img/title.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    max-width: 42%; height: 232px;
+    position: relative;
+    top: -600px; left: 2%;
+}
+
 h2{
     font-size: 30px;
     font-weight: bold;
