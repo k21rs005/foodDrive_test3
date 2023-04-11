@@ -58,8 +58,9 @@ main p{
     font-weight: lighter;
 }
 
-.are_about_us{
-    border: thin solid #EF9547;
+.area_about_us{
+    border: solid #EF9547;
+    border-width: 2px;
     border-radius: 15px;
     padding: 25px;
     margin: 30px 0;
@@ -73,7 +74,8 @@ main p{
 }
 
 .area_notice{
-    border: thin solid #EF9547;
+    border: solid #EF9547;
+    border-width: 2px;
     border-radius: 15px;
     padding: 25px;
     height: 1000px;
@@ -81,17 +83,28 @@ main p{
 }
 
 #no_head_tag_2{
-    padding-left: 10%;
+    background: url(img/グループ\ 101.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    padding-left: 5%;
     margin: 5% 0;
     color: #EF9547;
+    position: relative;
+    left: 5%;
 }
 
 #no_head_tag_3{
-    padding-left: 10%;
+    background: url(img/グループ\ 105.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    padding-left: 5%;
     margin: 5% 0;
     color: #EF9547;
     position: relative;
     top: -396px;
+    left: 5%;
 }
 
 
