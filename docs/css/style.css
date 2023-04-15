@@ -29,7 +29,19 @@ header nav ul li{
     object-fit: cover;
 }
 
+.img_header_title{
+    background: url(img/title.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    max-width: 42%; height: 232px;
+    position: relative;
+    top: -600px; left: 2%;
+}
 
+h2{
+    font-size: 30px;
+    font-weight: bold;
+}
 
 main{
     position: relative;
@@ -39,8 +51,9 @@ main{
     font-weight:700;
 }
 
-main h2{
-    font-size: 25px;
+#head_tag{
+    font-size: 30px;
+    font-weight: bold;
     background-image: url(img/黄ふうせん_copy.png);
     background-repeat: no-repeat;
     background-size: contain;
@@ -50,8 +63,140 @@ main h2{
 
 main p{
     padding: 0 5rem;
-    font-size: 16.5px;
+    font-size: 16px;
     font-weight: lighter;
+}
+
+.area_about_us{
+    border: solid #EF9547;
+    border-width: 2px;
+    border-radius: 15px;
+    padding: 25px;
+    margin: 30px 0;
+}
+
+#no_head_tag{
+    border-bottom: thin dotted #EF9547;
+    width: 50%;
+    margin: 5% 0;
+    margin-left: 10%;
+}
+
+.area_notice{
+    border: solid #EF9547;
+    border-width: 2px;
+    border-radius: 15px;
+    padding: 25px;
+    height: 1000px;
+    margin: 30px 0;
+}
+
+#no_head_tag_2{
+    background: url(img/グループ\ 101.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    padding-left: 5%;
+    margin: 5% 0;
+    color: #EF9547;
+    position: relative;
+    left: 5%;
+}
+
+#no_head_tag_3{
+    background: url(img/グループ\ 105.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    padding-left: 5%;
+    margin: 5% 0;
+    color: #EF9547;
+    position: relative;
+    top: -396px;
+    left: 5%;
+}
+
+
+.img_workshop{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.img_workshop_left{
+    background: url(img/グループ\ 197.png);
+    position: relative;
+    background-size: contain;
+    background-repeat: no-repeat;
+    max-width: 20%; height: 200px;
+    left: 10%; top: 0;
+    object-fit: cover;
+}
+
+.img_workshop_center{
+    background: url(img/グループ\ 93.png);
+    position: relative;
+    background-size: contain;
+    background-repeat: no-repeat;
+    max-width: 20%; height: 200px;
+    top: -198px; left: 40%;
+    object-fit: cover;
+}
+
+.img_workshop_right{
+    background: url(img/グループ\ 97.png);
+    position: relative;
+    background-size: contain;
+    background-repeat: no-repeat;
+    max-width: 20%; height: 200px;
+    top: -396px; left: 70%;
+    object-fit: cover;
+}
+
+.img_quiz_left{
+    background: url(img/グループ\ 113.png);
+    position: relative;
+    background-size: contain;
+    background-repeat: no-repeat;
+    max-width: 20%; height: 200px;
+    left: 10%; top: -356px;
+    object-fit: cover;
+}
+
+.img_quiz_center{
+    background: url(img/グループ\ 117.png);
+    position: relative;
+    background-size: contain;
+    background-repeat: no-repeat;
+    max-width: 20%; height: 200px;
+    top: -596px; left: 40%;
+    object-fit: cover;
+}
+
+.img_quiz_right{
+    background: url(img/グループ\ 108.png);
+    position: relative;
+    background-size: contain;
+    background-repeat: no-repeat;
+    max-width: 20%; height: 200px;
+    top: -796px; left: 70%;
+    object-fit: cover;
+}
+
+
+#notice_text_1{
+    position: relative;
+    top: -396px;
+}
+
+#notice_text_2{
+    position: relative;
+    top: -726px;
+}
+
+#set_foodDrive{
+    color: #EF9547;
+    text-align: center;
+    margin: 5% 0;
 }
 
 .report {
@@ -66,6 +211,7 @@ main p{
 #setting_point{
     font-weight: bold;
     text-align: center;
+    margin: 5% 0;
 }
 
 .area{
@@ -126,20 +272,21 @@ main p{
 .img_headline_spring{
     position: relative;
     top: -7px;
+    left: -10px;
     max-width: 100px; height: 120px;
     background: url(img/春号\ -\ コピー.png);
     background-size: cover;
+    margin-top: 5%;
 }
 
 .img_headline_foodRescue{
     position: relative;
     top: -130px; 
     margin: auto;
-    margin-left: 100px;
+    margin-left: 90px;
     max-width: 873px; height: 114px;
     background: url(img/見出し1.png);
     background-size: cover;
-
 }
 
 .explanatory_text_area{
@@ -161,12 +308,12 @@ main p{
     text-align: center;
     font-weight: bolder;
     position: relative;
-    top: -100px;
+    top: -90px;
 }
 
 .img_Manga_ep1{
     position: relative;
-    top: -130px;
+    top: -100px;
     max-width: 380px; height: 1075px;
     background: url(img/マンガコピー.png);
     background-size: contain;
@@ -213,7 +360,7 @@ main p{
     width: 190px;
     height: 253px;
 
-    background-color: #000;
+    background: url(img/グループ\ 171.png);
 }
 
 #thx_for_foodDrive{
@@ -255,20 +402,20 @@ main p{
 
     width: 224px;
     height: 148px;
-    background-color: hsl(0, 97%, 42%);
+    background: url(img/グループ\ 172.png);
 }
 
 .img_2_result_of_foodDrive{
     width: 115px;
     height: 152px;
-    background-color: hsl(145, 77%, 49%);
+    background: url(img/グループ\ 174.png);
     margin: 3% 0;
 }
 
 .img_3_result_of_foodDrive{
     width: 224px;
     height: 152px;
-    background-color: hsl(219, 82%, 52%);
+    background: url(img/グループ\ 173.png);
     margin: 3%;
 }
 
@@ -354,42 +501,39 @@ footer{
     background-color: #F78829;
 }
 
+.img_footer_logo{
+    background: url(img/ロゴ_白抜き.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    max-width: 80px; height: 65px;
+    position: relative;
+    margin: auto;
+    top: 20px;
+}
+
 
 .menu{
     display: flex;
-    text-align: left;
-    margin-left: 8%;
+    justify-content: center;
     /*background-color: #2811d7;   範囲を確認するため　後で削除する*/
 }
 
 .menu li{
     list-style: none;
-    padding-top: 150px;
-    font-size: 20px;
-    margin: 0 2%;
+    margin-top: 50px;
+    font-size: 16px;
+    margin-right: 4%;
+    border-bottom: solid thin;
     color: #FFFFFF;
 }
 
-.Contact{
-    position: relative;
-    top: -93px;
-    /*background-color: hsl(135, 82%, 47%); 範囲を確認するため　後で削除する*/
-    text-align: left;
-    font-size: 20px;
+nav p{
+    text-align: right;
+    font-size: 16px;
     font-weight: bold;
-
-    /*画像を挿入*/
-    background-image: url(img/ロゴ_白抜き.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: 56% 36%;
-}
-
-.Contact li{
-    list-style: none;
-    padding: 1.5px 0;
-    margin-left: 60%;
     color: #FFFFFF;
+    margin-right: 1%;
+    margin-top: 3%;
 }
 
 .openbtn4{
