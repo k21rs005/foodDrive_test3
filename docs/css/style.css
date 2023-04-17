@@ -18,7 +18,6 @@ header nav ul li{
 
 .headerMenu{
     height: 64px;
-    background-color: #F78829;
 }
 
 .img_header{
@@ -540,42 +539,44 @@ nav p{
     position: relative;/*ボタン内側の基点となるためrelativeを指定*/
     background:#F78829;
     cursor: pointer;
-      width: 50px;
-      height:50px;
-    border-radius: 5px;
+      width: 60px;
+      height:60px;
+    border-radius: 50px;
     margin:0 0 0 auto;
+    transform: translate(-50px,20px);
+}
     
-  }
+
   
   /*ボタン内側*/
   .openbtn4 span{
       display: inline-block;
       transition: all .4s;/*アニメーションの設定*/
       position: absolute;
-      left: 14px;
+      left: 16px;
       height: 2px;
-      border-radius: 5px;
+      border-radius: 25px;
     background: #fff;
       width: 45%;
     }
   
   
   .openbtn4 span:nth-of-type(1) {
-    top:13px; 
+    top:15px; 
   }
   
   .openbtn4 span:nth-of-type(2) {
-    top:19px;
+    top:21px;
   }
   
   .openbtn4 span:nth-of-type(3) {
-    top:25px;
+    top:27px;
   }
   
   .openbtn4 span:nth-of-type(3)::after {
     content:"Menu";/*3つ目の要素のafterにMenu表示を指定*/
     position: absolute;
-    top:5px;
+    top:10px;
     left:-2px;
     color: #fff;
     font-size: 0.6rem;
@@ -586,9 +587,9 @@ nav p{
   
   .openbtn4.active span:nth-of-type(1) {
       top: 14px;
-      left: 18px;
+      left: 17px;
       transform: translateY(6px) rotate(-45deg);
-      width: 30%;
+      width: 40%;
   }
   
   .openbtn4.active span:nth-of-type(2) {
@@ -597,36 +598,35 @@ nav p{
   
   .openbtn4.active span:nth-of-type(3){
       top: 26px;
-      left: 18px;
+      left: 17px;
       transform: translateY(-6px) rotate(45deg);
-      width: 30%;
+      width: 40%;
   }
   
   .openbtn4.active span:nth-of-type(3)::after {
     content:"Close";/*3つ目の要素のafterにClose表示を指定*/
       transform: translateY(0) rotate(-45deg);
-    top:5px;
-    left:4px;
+    top:8px;
+    left:10px;
   }
   /*========= レイアウトのためのCSS ===============*/
   
   .slide-menu{
     width: 100%;
+    height: 100%;
     font-size: 20px;
     box-sizing: border-box;
     background-color:#F78829;
     text-decoration: none;
     padding: 9px 15px 10px 0;
-    position: relative;
+    position: fixed;
     text-align: left;
     transform: translateX(100%); 
     transition: .5s;
+    z-index: 100;
+    margin-top: 35px;
   }
-  .slide-menu li{
-    color: #fff;
-    line-height: 400%;
-    text-align: center;
-  }
+  
   
 
 
@@ -634,7 +634,51 @@ nav p{
     transform: translateX(0); 
   }
 
+
   .btn{
     text-decoration:none;
     text-align: center;
 }
+
+.slide-menu a {
+    border-bottom: solid 1px #ffffff;
+    list-style: none;
+    width:100%;
+    line-height: 49px;
+}
+.slide-menu a p {
+    width: 100%;
+    font-size: 20px;
+    box-sizing: border-box;
+    color:white;
+    text-decoration: none;
+    padding: 9px 15px 10px 0;
+    position: relative;
+    text-align: left;
+
+}
+
+#top-page-btn {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    display: none;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color:#F78829;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  #top-page-btn:hover {
+    transform: scale(1.1);
+  }
+  
+  header{
+      max-height: 500px;
+  }
